@@ -1,0 +1,36 @@
+{
+  "name": "Forkify",
+  "version": "1.0.0",
+  "description": "recipe application",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "watch:dev": "parcel watch index.html --dist-dir ./dist",
+    "build:dev": "parcel build index.html --dist-dir ./dist",
+    "build:prod": "parcel build index.html --dist-dir ./dist --no-scope-hoist"
+  },
+  "keywords": [],
+  "author": "Sumanth",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.3.0",
+    "os-browserify": "^0.3.0",
+    "parcel": "^2.12.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "sass": "^1.72.0",
+    "stream-browserify": "^3.0.0",
+    "string_decoder": "^1.3.0",
+    "vm-browserify": "^1.1.2"
+  },
+  "dependencies": {
+    "core-js": "^3.36.1",
+    "dotenv": "^16.4.5",
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.11",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
