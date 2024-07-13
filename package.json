@@ -5,9 +5,8 @@
   "source": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "watch:dev": "parcel watch index.html --dist-dir ./dist",
-    "build:dev": "parcel build index.html --dist-dir ./dist",
-    "build:prod": "parcel build index.html --dist-dir ./dist --no-scope-hoist"
+    "watch": "parcel watch index.html --dist-dir ./dist",
+    "build": "parcel build index.html --no-scope-hoist"
   },
   "keywords": [],
   "author": "Sumanth",
